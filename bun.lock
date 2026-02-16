@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "hook-hole",
+      "name": "hook-test",
       "devDependencies": {
         "@types/bun": "latest",
       },

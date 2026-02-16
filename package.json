@@ -1,0 +1,16 @@
+{
+  "name": "hook-test",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "init:env": "cp .env.example .env && echo \" ℹ️ Please modify .env for your environment settings\"",
+    "start": "bun src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
